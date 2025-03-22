@@ -6,6 +6,7 @@
 
 body {
   background: #242424;
+  transition: 0.6s;
 }
 
 main {
@@ -59,4 +60,12 @@ main {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+.input-color {
+  appearance: none;
+  border: none;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
 }
